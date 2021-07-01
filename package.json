@@ -1,0 +1,25 @@
+{
+  "name": "js-crawling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-httpcli": "^0.7.2",
+    "http": "0.0.0",
+    "iconv-lite": "^0.4.19",
+    "node-libcurl": "^1.2.0",
+    "node-schedule": "^1.2.5",
+    "nodemailer": "^4.4.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.9",
+    "request": "^2.83.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
